@@ -1,0 +1,568 @@
+* {
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0;
+  margin-left: 0px;
+  padding-left: 0;
+}
+
+.web-container {
+  margin: auto;
+  margin-left: 0px;
+}
+
+.underline {
+  height: 3px;
+  width: 90px;
+  background-color: #009961;
+}
+
+section > * {
+  color: #444444;
+}
+
+div .justify-content-center nav ul li a {
+  color: rgba(250, 250, 250, 0.5);
+}
+
+.mt-1, .my-1 {
+  margin-top: 0rem  !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.img-bg {
+  background-image: url("https://bootstrapmade.com/demo/templates/KnightOne/assets/img/hero-bg.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.img-bg .navbar-expand-lg {
+  position: fixed;
+  z-index: 10;
+}
+
+.img-bg .navbar-expand-lg .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+
+.img-bg .navbar-expand-lg .navbar-nav .nav-item .k {
+  height: 57px;
+}
+
+.img-bg .navbar-expand-lg .navbar-nav .nav-item .k:hover {
+  border-bottom: 5px solid #009961;
+}
+
+.img-bg .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.img-bg .x {
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #009961;
+}
+
+.sec1 .text-center {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.sec1 .p2 {
+  font-size: 25px;
+}
+
+.sec1 .play-btn {
+  width: 94px;
+  height: 94px;
+  margin: 0 auto;
+  background: radial-gradient(#009961 50%, rgba(0, 153, 97, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.sec1 .play-btn i {
+  z-index: 1;
+}
+
+.sec1 .play-btn .play-btn::after {
+  border: 1px solid green;
+}
+
+i {
+  color: black;
+}
+
+.justify-content-center {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.btn-outline {
+  color: white;
+}
+
+.btn-outline:hover {
+  background-color: #009961;
+}
+
+.sec2-container {
+  width: 90%;
+  margin: auto;
+}
+
+.sec2-container .sec2 h1 {
+  background-color: 0;
+}
+
+.sec2-container .sec2 .justify-content-between .col-6 .btn-outline-success {
+  border-radius: 25px;
+}
+
+.sec3 > * {
+  background-color: white;
+}
+
+.sec3 {
+  z-index: -1;
+}
+
+.sec3 p {
+  font-size: 20px;
+}
+
+.sec3 .row .card {
+  height: 400px;
+  padding-bottom: 90px;
+  border-radius: 25px;
+  padding-left: 30px;
+  margin-left: 30px;
+  padding-right: 30px;
+}
+
+.sec3 .row .card .www {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #009961;
+  position: relative;
+}
+
+.sec3 .row .card .www i {
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 23px;
+  font-size: 25px;
+}
+
+.sec3 .row .card:hover {
+  border-bottom: #009961 7px solid;
+  -webkit-animation: myanmation 0.4s 1;
+          animation: myanmation 0.4s 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.sec3 .row .card:hover .x1 {
+  color: #009961;
+}
+
+@-webkit-keyframes myanmation {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    border-bottom: 0px solid #009961;
+  }
+  to {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    border-bottom: 7px solid #009961;
+  }
+}
+
+@keyframes myanmation {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    border-bottom: 0px solid #009961;
+  }
+  to {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+    border-bottom: 7px solid #009961;
+  }
+}
+
+.sec4 .img-bg {
+  background: no-repeat -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("https://bootstrapmade.com/demo/templates/KnightOne/assets/img/cta-bg.jpg") fixed center center;
+  background: no-repeat linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://bootstrapmade.com/demo/templates/KnightOne/assets/img/cta-bg.jpg") fixed center center;
+}
+
+.sec4 .img-bg .row {
+  width: 80%;
+  margin: auto;
+}
+
+.sec4 .img-bg .row .col-4 .btn {
+  border-radius: 25px;
+}
+
+.sec4 .img-bg .row .col-8 h2, .sec4 .img-bg .row .col-8 p {
+  color: white;
+}
+
+.sec5-container .sec5 .row .left-side .row .far, .sec5-container .sec5 .row .left-side .row .fad, .sec5-container .sec5 .row .left-side .row .fal, .sec5-container .sec5 .row .left-side .row i {
+  color: #009961;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.sec5-container .sec5 .row .left-side .row span h2 {
+  font-size: 7px;
+}
+
+.sec5-container .sec5 .row .left-side .row span .p1 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.section6-container {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  background-color: white;
+}
+
+.section6-container .container {
+  background-color: white;
+}
+
+.section6-container .sec6 {
+  background-color: white;
+}
+
+.section6-container .sec6 .line1, .section6-container .sec6 .line2 {
+  background-color: white;
+}
+
+.section6-container .sec6 .line1 .company, .section6-container .sec6 .line2 .company {
+  border: 1px solid #8c96a0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section6-container .sec6 .line1 .company img, .section6-container .sec6 .line2 .company img {
+  width: 300px;
+  padding-left: 67px;
+  padding-right: 67px;
+  background-color: white;
+  margin-top: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  -webkit-transition: width 0.4s;
+  transition: width 0.4s;
+}
+
+.section6-container .sec6 .line1 .company img:hover, .section6-container .sec6 .line2 .company img:hover {
+  width: 320px;
+}
+
+@-webkit-keyframes myanimation2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 320px;
+  }
+}
+
+@keyframes myanimation2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 320px;
+  }
+}
+
+.section7-container {
+  color: white;
+}
+
+.bg-imgyyy {
+  background: url("https://imgr.search.brave.com/jX9hkS9wRtPe1hmc-Kl6mHJpmbe0BingDbgS7IidWys/fit/1200/1200/ce/1/aHR0cHM6Ly9pbWcw/MC5kZXZpYW50YXJ0/Lm5ldC81NjMzL2kv/MjAxMC8wMDIvOC9j/LzE5MjB4MTIwMF9z/dG9ja193YWxscGFw/ZXJfYmdfX2J5X211/bGxldC5qcGc") fixed;
+}
+
+.section7-container.img {
+  width: 350px;
+}
+
+.section7-container > * {
+  color: white;
+}
+
+.justify-content-center .row .btn {
+  background-color: #009961;
+}
+
+.sec8-container {
+  width: 90%;
+  margin: auto;
+}
+
+.sec8-container .sec8 div {
+  margin-left: 50px;
+}
+
+.sec8-container .sec8 div .row .btn {
+  border-radius: 25px;
+}
+
+.sec8-container .sec8 div .pics .row .pic img:hover {
+  opacity: 0.6;
+}
+
+.sec8-container .sec8 div .pics .row .pic img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: -100px;
+}
+
+.sec9-container .sec9 .row .card > * {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sec9-container .sec9 .row .card > * .card-body > * {
+  font-size: center;
+}
+
+.sec9-container .sec9 .row .card > * .card-body h2 {
+  color: #009961;
+}
+
+.btn2:hover {
+  background-color: #009961;
+  color: white;
+}
+
+.btn22:hover {
+  background-color: #009961;
+  opacity: 0.7;
+}
+
+.section10-container {
+  background-color: #f9f9f9;
+}
+
+.section10-container .sec10 .row .left-side .btn:hover {
+  color: #009961;
+}
+
+.section10-container .sec10 .row .left-side .btn:focus {
+  color: blue;
+}
+
+.abcdefg:hover {
+  opacity: 0.8;
+}
+
+.bahaa:hover {
+  opacity: 0.5;
+}
+
+.mbc:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #sec0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #sec0 > * {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #sec0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  #sec0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  #sec0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #sec0 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #img-bg {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #mqp1 {
+    font-size: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #mqp2 {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #mqp1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  #mqcard {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .mqimg {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .mqimg {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .line1 > * {
+    display: block;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .pic2 {
+    display: block;
+    margin-left: 100px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .gghh {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .nnn {
+    margin-right: 1000px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .sec10text {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .xxx {
+    margin-right: -300px;
+  }
+}
+/*# sourceMappingURL=KnightOne.css.map */
